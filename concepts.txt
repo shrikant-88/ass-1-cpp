@@ -1,0 +1,22 @@
+Q1:
+to print "physics" and "wallah" one after another line -> use '/n' or endl 
+for ex1: cout<<"physics" << \n << "wallah";
+     
+    ex2: cout<<"physics" << endl;
+         cout<<"wallah" << endl;
+
+Q2:
+int -> 4 byte
+bool -> 1 byte
+float -> 4 byte
+
+Q3: 
+    void main(){
+    	int a=4;
+       int b=5;
+       a++;  // a=5
+       b--;  // b=4
+       cout<<++a<<" "<<b–-; // a = 6 // b = 4 but after use b = 3 
+    }
+    output = 10
+  
